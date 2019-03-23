@@ -1,0 +1,18 @@
+<taglib>
+	<tlib-version>1.0</tlib-version>
+	<jsp-version>2.0</jsp-version>
+	<short-name>date</short-name>
+
+	<tag>
+		<name>print-date</name>
+		<tag-class>tags.DateTag</tag-class>
+		<body-content>empty</body-content>
+	</tag>
+
+	<tag>
+		<name>check-login</name>
+		<tag-class>tags.LoginTag</tag-class>
+		<body-content>empty</body-content>
+	</tag>
+
+</taglib>
